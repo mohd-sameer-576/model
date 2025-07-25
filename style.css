@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+.openbtn {
+    position: fixed;
+    font-size: 25px;
+    top: 20px;
+    left: 20px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.openbtn:hover {
+    background-color: #0056b3;
+}
+.openbtn:focus {
+    outline: none;
+}
+.openbtn:active {
+    background-color: #004080;
+}
